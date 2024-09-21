@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.4">
+  <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
+    <mxGraphModel dx="2315" dy="1835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="382b91b5511bd0f7-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;direction=south;" parent="1" vertex="1">
+          <mxGeometry x="130" y="135" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF1C14;" edge="1" parent="1" source="382b91b5511bd0f7-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="382b91b5511bd0f7-6" value="Użytkownik zalogowany" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
+          <mxGeometry x="240" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2a3bc250acf0617d-9" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;" parent="1" source="382b91b5511bd0f7-1" target="382b91b5511bd0f7-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-7" value="Użytkownik wysyła zapytanie HTTP do serwera" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="120" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="680" y="110" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-10" value="AccessToken jest ważny" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;strokeColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="BImoWwM5E5ZVhQ-gUtfz-8" parent="1" target="BImoWwM5E5ZVhQ-gUtfz-14">
+          <mxGeometry x="-0.2889" relative="1" as="geometry">
+            <mxPoint x="1040" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="185" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-12" value="AccessToken jest nieważny" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;strokeColor=#FF0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="BImoWwM5E5ZVhQ-gUtfz-16">
+          <mxGeometry x="-0.0909" relative="1" as="geometry">
+            <mxPoint x="1040" y="150" as="targetPoint" />
+            <mxPoint x="690" y="120" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="860" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="BImoWwM5E5ZVhQ-gUtfz-14" target="382b91b5511bd0f7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-14" value="Serwer wysyła odpowiedź na zapytanie" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFC0;strokeColor=#FF0303;" vertex="1" parent="1">
+          <mxGeometry x="790" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="BImoWwM5E5ZVhQ-gUtfz-16" target="BImoWwM5E5ZVhQ-gUtfz-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-16" value="Serwer sprawdza ważność Refresh Tokena" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFC0;strokeColor=#FF0303;" vertex="1" parent="1">
+          <mxGeometry x="910" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1110" y="110" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-20" value="Refresh Token ważny" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" source="BImoWwM5E5ZVhQ-gUtfz-18" parent="1" target="BImoWwM5E5ZVhQ-gUtfz-22">
+          <mxGeometry x="0.0677" y="2" relative="1" as="geometry">
+            <mxPoint x="1190" y="185" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BImoWwM5E5ZVhQ-gUtfz-22" target="BImoWwM5E5ZVhQ-gUtfz-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-22" value="Wydanie nowego AccessTokena" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFC0;strokeColor=#FF0303;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-24" value="Refresh Token nieważny" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;curved=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BImoWwM5E5ZVhQ-gUtfz-18" target="BImoWwM5E5ZVhQ-gUtfz-29">
+          <mxGeometry x="0.0677" y="2" relative="1" as="geometry">
+            <mxPoint x="1270" y="110" as="targetPoint" />
+            <mxPoint x="1140" y="120" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-25" value="Użytkownik pozostaje zalogowany" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="250" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-26" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="95" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BImoWwM5E5ZVhQ-gUtfz-29" target="BImoWwM5E5ZVhQ-gUtfz-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-29" value="Wylogowanie użytkownika do strony logowania" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFC0;strokeColor=#FF0303;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-33" value="Diagram stanu zalogowania użytkownika" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=180;height=30;" vertex="1" parent="1">
+          <mxGeometry x="110" y="70" width="1680" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="BImoWwM5E5ZVhQ-gUtfz-34" target="BImoWwM5E5ZVhQ-gUtfz-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BImoWwM5E5ZVhQ-gUtfz-34" value="Użytkownik niezalogowany" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFC0;strokeColor=#FF0303;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

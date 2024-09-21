@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.4">
+  <diagram name="Page-1" id="QWuy2Iov789CCSLMCAOM">
+    <mxGraphModel dx="834" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9U6Lor_anN-pGK65H4v6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9U6Lor_anN-pGK65H4v6-1" target="9U6Lor_anN-pGK65H4v6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9U6Lor_anN-pGK65H4v6-1" value="&lt;div&gt;Użytkownik&lt;/div&gt;&lt;div&gt;Przeglądarka&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9U6Lor_anN-pGK65H4v6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9U6Lor_anN-pGK65H4v6-2" target="9U6Lor_anN-pGK65H4v6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9U6Lor_anN-pGK65H4v6-2" value="&lt;div&gt;Serwer WWW&lt;/div&gt;&lt;div&gt;(Nginx/Apache)&lt;/div&gt;&lt;div&gt;-Obsługa statycznych plików&lt;br&gt;- Reverse Proxy&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9U6Lor_anN-pGK65H4v6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9U6Lor_anN-pGK65H4v6-3" target="9U6Lor_anN-pGK65H4v6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9U6Lor_anN-pGK65H4v6-3" value="&lt;div&gt;Serwer aplikacji Java&lt;/div&gt;&lt;div&gt;SpringBOOT/Tomcat&lt;br&gt;- Aplikacja Java&lt;/div&gt;&lt;div&gt;- Serwisy RESTful&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9U6Lor_anN-pGK65H4v6-4" value="Baza danych&lt;br&gt;Mysql" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
